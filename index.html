@@ -117,34 +117,95 @@ font-size:20px;font-weight:bold;">
 </a>
 
 </section>
+<section class="products">
+  <h2>Our Products</h2>
 
-<section class="section">
+  <div class="category">
+    <h3>JCB Bush & Pin Parts</h3>
 
-<h2>Our Products</h2>
+    <div class="product-grid">
 
-<div class="cards">
+      <div class="product-card">
+        <img src="images/bucket-pin.jpg" alt="Bucket Pin Bush Kit">
+        <h4>Bucket Pin Bush Kit</h4>
+        <p>High quality JCB spare part</p>
+        <a href="https://wa.me/91YOURNUMBER" target="_blank">
+          Order on WhatsApp
+        </a>
+      </div>
 
-<div class="card">
-<h3>Bucket Pins</h3>
-<p>Premium Quality Bucket Pins.</p>
-</div>
+      <div class="product-card">
+        <img src="images/bucket-sleeve.jpg" alt="Bucket Pin Sleeve">
+        <h4>Bucket Pin Sleeve</h4>
+        <p>Heavy duty replacement part</p>
+        <a href="https://wa.me/91YOURNUMBER" target="_blank">
+          Order on WhatsApp
+        </a>
+      </div>
 
-<div class="card">
-<h3>Bush Kits</h3>
-<p>Strong & Durable Bush Kits.</p>
-</div>
+    </div>
+  </div>
 
-<div class="card">
-<h3>Grease Guns</h3>
-<p>Heavy Duty Grease Guns.</p>
-</div>
 
-<div class="card">
-<h3>Hydraulic Parts</h3>
-<p>Original Hydraulic Spare Parts.</p>
-</div>
+  <div class="category">
+    <h3>Hydraulic Parts</h3>
 
-</div>
+    <div class="product-grid">
+
+      <div class="product-card">
+        <img src="images/pipe.jpg" alt="JCB Pipe">
+        <h4>JCB Hydraulic Pipe</h4>
+        <p>Quality hydraulic spare parts</p>
+        <a href="https://wa.me/91YOURNUMBER" target="_blank">
+          Order on WhatsApp
+        </a>
+      </div>
+
+    </div>
+  
+
+</section>
+  .products {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.products h2 {
+  font-size: 32px;
+}
+
+.category {
+  margin-top: 40px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+.product-card a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #25D366;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
 
 </section>
 <section class="section">
