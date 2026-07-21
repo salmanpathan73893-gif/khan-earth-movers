@@ -1,9 +1,48 @@
-console.log("KHAN EARTH MOVERS Website Loaded");
-<div class="card">
-<img src="images/newproduct.jpg">
-<h4>Product Name</h4>
-<p>Product details</p>
-<a href="https://wa.me/916397684170">
-Enquire Now
-</a>
-</div>
+// KHAN EARTH MOVERS
+
+const search = document.querySelector(".search input");
+
+const cards = document.querySelectorAll(".card");
+
+search.addEventListener("keyup", function(){
+
+let value = search.value.toLowerCase();
+
+cards.forEach(function(card){
+
+let text = card.innerText.toLowerCase();
+
+if(text.includes(value)){
+
+card.style.display="block";
+
+}else{
+
+card.style.display="none";
+
+}
+
+});
+
+});
+
+
+// Smooth Scroll
+
+document.querySelectorAll("nav a").forEach(link=>{
+
+link.addEventListener("click",function(e){
+
+e.preventDefault();
+
+document.querySelector(this.getAttribute("href"))
+
+.scrollIntoView({
+
+behavior:"smooth"
+
+});
+
+});
+
+});
