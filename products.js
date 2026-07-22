@@ -59,3 +59,5 @@ image:"images/jcb-grease-gun.jpg",
 description:"Original JCB Grease Gun engineered for reliable lubrication and long-lasting performance. Built with premium materials for heavy-duty construction and earthmoving equipment maintenance.",
 whatsapp:"https://wa.me/916397684170?text=Hello%20KHAN%20EARTH%20MOVERS,%20I%20want%20to%20enquire%20about%20the%20JCB%20Grease%20Gun."
 },
+
+image:"images/jcb-grease-gun.jpg",
